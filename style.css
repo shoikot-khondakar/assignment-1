@@ -60,7 +60,7 @@ nav a {
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
     padding: 70px;
-    
+
 
 
 }
@@ -73,14 +73,221 @@ nav a {
 
 .banner-discription {
     color: rgba(39, 39, 39, 0.60);
-    
+
     font-size: 18px;
-    
+
     font-weight: 400;
     width: 50%;
 }
-.banner-container{
+
+.banner-container {
     margin-left: 20px;
-    padding-left: 40px; 
+    padding-left: 40px;
     max-width: 500px;
+}
+
+.flowers {
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.flower-1 {
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.flower-2 {
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.flower-3 {
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.charm-1 {
+    width: 160px;
+}
+
+.charm-2 {
+    width: 200px;
+}
+
+.charm-3 {
+    width: 160px;
+}
+
+.featured-flower {
+    text-align: center;
+    padding: 40px;
+    color: #272727;
+
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.flower-discription {
+    width: 35%;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+.flower-title {
+    font-size: small;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.flower-title-1 {
+    font-size: small;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.flower-title-2 {
+    font-size: small;
+    padding-bottom: 15px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.container {
+    background: #FFF;
+}
+
+.discount-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(254, 230, 230);
+    padding: 70px;
+
+}
+
+.discount-discription {
+    width: 500px;
+}
+
+.discount-title {
+    color: rgba(39, 39, 39, 0.60);
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+.discount-heading {
+    color: #272727;
+
+    font-size: 35px;
+
+    font-weight: 800;
+
+}
+
+.icon {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.flower-boxs {
+
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.insta-container {
+    text-align: center;
+}
+
+.insta-title {
+    color: #272727;
+
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.insta-discription {
+    color: rgba(39, 39, 39, 0.60);
+    width: 40%;
+    margin: auto;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+
+.deals-section {
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    background-color: whitesmoke;
+    background-image: url('./Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.deal-title {
+    color: #272727;
+
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.deal-discription {
+    color: rgba(39, 39, 39, 0.60);
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+}
+.size{
+    width: 250px;
+height: 20px;
+
 }
